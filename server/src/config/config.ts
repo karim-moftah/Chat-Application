@@ -4,7 +4,7 @@ dotenv.config();
 
 const DB_USERNAME = process.env.MONGO_USERNAME;
 const DB_PASSWORD = process.env.MONGO_PASSWORD;
-const MONGO_URL = `mongodb+srv://${DB_USERNAME}:${DB_PASSWORD}@cluster0.amnqdvu.mongodb.net/chat`;
+const MONGO_URL = `<your mongo url>`;
 
 const SERVER_PORT = process.env.PORT;
 
